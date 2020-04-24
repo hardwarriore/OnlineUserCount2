@@ -259,12 +259,12 @@
             "description":  "A Emteria Linux port for ARM devices RPi3",
             "release_date": "2018-07-30",
             "feature_level": 0,
-            "supported_hex_revisions": "2082",    
+            "supported_hex_revisions": "1040,1041,2082",    
             "supported_models": [
-                "Pi 3"
+                "Pi 3",
+				"Pi 3 Model B Rev"
             ],            
             "group":           "General",
-            "download_size":    360449257,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Emteria/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Emteria/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os/Emteria/Emteria.png",
@@ -276,6 +276,33 @@
                                "http://downloads.sourceforge.net/project/pinn/os/Emteria/oem.zip"
             ],
             "nominal_size": 2545
+        }
+,	
+		{
+            "os_name":	    "ubuntuMate1804",
+            "description": "Ubuntu Mate 18.04.2 Beta 1",
+            "release_date": "2019-03-24",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",    
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],                
+            "supports_usb_boot": false,
+            "supports_backup":   true,
+            "url":              "https://ubuntu-mate.org/download/",
+            "group":            "Testing",
+            "download_size":    1204707988,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1804/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1804/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1804/ubuntuMate1804.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1804/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1804/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1804/system-boot.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1804/writable.tar.xz"
+            ],
+            "nominal_size": 4634
         }
 
 
