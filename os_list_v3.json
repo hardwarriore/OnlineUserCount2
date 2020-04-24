@@ -286,10 +286,9 @@
             "supported_hex_revisions": "1040,1041,2082",    
             "supported_models": [
                 "Pi 2",
+				"Pi 3",
                 "Pi 3 Model B Rev"
             ],                
-            "supports_usb_boot": false,
-            "supports_backup":   true,
             "url":              "https://ubuntu-mate.org/download/",
             "group":            "Testing",
             "download_size":    1204707988,
