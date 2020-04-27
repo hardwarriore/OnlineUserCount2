@@ -271,7 +271,7 @@
             "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Emteria/marketing.tar",
             "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Emteria/partition_setup.sh",
             "tarballs": [
-                               "http://raw.githubusercontent.com/hardwarriore/OnlineUserCount2/master/boot.zip",
+                               "boot.zip",
                                "http://downloads.sourceforge.net/project/pinn/os/Emteria/system.zip",
                                "http://downloads.sourceforge.net/project/pinn/os/Emteria/oem.zip"
             ],
